@@ -10,7 +10,7 @@ node_modules/
 .env
 
 backups/*
-caddy
+Caddy
 output/*
 mosquitto/data/*
 postgres/data/*
