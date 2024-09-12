@@ -469,6 +469,8 @@ class MQTT:
             msg['to'] = utils.convert_node_id_from_int_to_hex(msg["to"])
         if 'sender' in msg and msg['sender'] and isinstance(msg['sender'], str):
             msg['sender'] = msg['sender'].replace('!', '')
+        if msg['channel'] = 8:
+            msg['channel'] = "0"
         if 'channel' not in msg:
             msg['channel'] = "0"
 
